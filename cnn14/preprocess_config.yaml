@@ -1,0 +1,25 @@
+# CNN14 preprocessing configs
+
+sample_rate: 32000          
+segment_length: 10.0        
+overlap: 0.5               
+n_mels: 64                  
+fmin: 50                    
+fmax: 14000                 
+n_fft: 1024                 
+hop_length: 320             
+win_length: 1024            
+
+silence_threshold_db: -35   
+
+#optional bandpass (turned off)
+use_bandpass: false
+bandpass_order: 4
+bandpass_fmin: 500
+bandpass_fmax: 11000
+
+input_dir: "" # replace with input directory
+output_dir: "" # replace with output directory
+
+random_seed: 42
+max_files: null             
