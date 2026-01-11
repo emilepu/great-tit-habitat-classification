@@ -14,13 +14,13 @@ First, for the unified beginning (code in data_preparation folder):
 
 Then, for 
 (A) the CNN14 approach (cnn14 folder):
-4. preprocessing.py (together with preprocess_config.yaml)
-5. cnn14_finetune.py (with some parameters stored in run_finetune.sh)
+1. preprocessing.py (together with preprocess_config.yaml)
+2. cnn14_finetune.py (with some parameters stored in run_finetune.sh)
 
 (B) the BirdNET approach (birdnet folder):
-4. preprocess_wav.py
-5. extract_birdnet_embeddings.py
-6. prepare_embeddings_dataset.py
-7. split_dataset_by_recording.py
-8. train_habitat_models_final.py
+1. preprocess_wav.py
+2. extract_birdnet_embeddings.py
+3. prepare_embeddings_dataset.py
+4. split_dataset_by_recording.py
+5. train_habitat_models_final.py
 
